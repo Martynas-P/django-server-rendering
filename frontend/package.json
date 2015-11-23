@@ -1,0 +1,38 @@
+{
+  "name": "DjangoFrontend",
+  "version": "1.0.0",
+  "description": "Frontend for a Django app",
+  "scripts": {
+    "start-server": "nodemon server.js",
+    "build-server": "gulp watch",
+    "build-dev": "webpack -d --config webpack.development.js --watch --progress",
+    "build-prod": "webpack -p --config webpack.production.js"
+  },
+  "author": "Martynas Puronas <martynas.puronas@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "react": "^0.14.3",
+    "react-document-title": "^2.0.1",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.0",
+    "react-router": "^1.0.0",
+    "redux": "^3.0.4",
+    "redux-router": "^1.0.0-beta4",
+    "redux-thunk": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.0",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-2": "^6.1.18",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-watch": "^4.3.5",
+    "json-loader": "^0.5.3",
+    "nodemon": "^1.8.1",
+    "webpack": "^1.12.6"
+  }
+}
