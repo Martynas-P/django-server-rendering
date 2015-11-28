@@ -11,10 +11,6 @@ class ComponentA extends React.Component {
       </DocumentTitle>
     );
   }
-
-
-
-
 };
 
 

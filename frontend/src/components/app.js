@@ -15,7 +15,9 @@ class App extends React.Component {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/component-a">Component A</Link></li>
             <li><Link to="/square/36">Square 36</Link></li>
+            <li><Link to="/async-component">Async Component</Link></li>
           </ul>
+
           {this.props.children}
         </div>
       </DocumentTitle>
